@@ -15,6 +15,12 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		E1E133068BEC4D731EB6A7A1 /* Pods_MultiTracker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC7C9E948896FEB28F1D869 /* Pods_MultiTracker_Tests.framework */; };
+		E1FAE2281F670D4A006C01B0 /* LogAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2271F670D4A006C01B0 /* LogAnalytics.swift */; };
+		E1FAE22C1F67101F006C01B0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE22B1F67101F006C01B0 /* BlurView.swift */; };
+		E1FAE22E1F671287006C01B0 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE22D1F671287006C01B0 /* MyView.swift */; };
+		E1FAE2301F6713FD006C01B0 /* LogTwoAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE22F1F6713FD006C01B0 /* LogTwoAnalytics.swift */; };
+		E1FAE2321F6715DC006C01B0 /* MyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2311F6715DC006C01B0 /* MyEvent.swift */; };
+		E1FAE2341F6716EC006C01B0 /* MyException.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2331F6716EC006C01B0 /* MyException.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1308A8920272A99089A1E9C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1308A8920272A99089A1E9C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2FC7C9E948896FEB28F1D869 /* Pods_MultiTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C37EAA10E2F8B467A955BD /* Pods-MultiTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTracker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		567D2BF05DB1D4190B7124EF /* MultiTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MultiTracker.podspec; path = ../MultiTracker.podspec; sourceTree = "<group>"; };
+		567D2BF05DB1D4190B7124EF /* MultiTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultiTracker.podspec; path = ../MultiTracker.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MultiTracker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTracker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +50,14 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F2D62BA9A3355C15C667C6C /* Pods-MultiTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTracker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTracker_Tests/Pods-MultiTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71EEDE471C0323FF7241C097 /* Pods-MultiTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTracker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTracker_Tests/Pods-MultiTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A6902DB6077389F7D1C4CAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A6902DB6077389F7D1C4CAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCD4478E98E7BA05ADB646A3 /* Pods-MultiTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTracker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1FAE2271F670D4A006C01B0 /* LogAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogAnalytics.swift; sourceTree = "<group>"; };
+		E1FAE22B1F67101F006C01B0 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E1FAE22D1F671287006C01B0 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		E1FAE22F1F6713FD006C01B0 /* LogTwoAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTwoAnalytics.swift; sourceTree = "<group>"; };
+		E1FAE2311F6715DC006C01B0 /* MyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEvent.swift; sourceTree = "<group>"; };
+		E1FAE2331F6716EC006C01B0 /* MyException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyException.swift; sourceTree = "<group>"; };
 		E9023ABD562AE4CC78C3A161 /* Pods_MultiTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,11 +125,13 @@
 		607FACD21AFB9204008FA782 /* Example for MultiTracker */ = {
 			isa = PBXGroup;
 			children = (
+				E1FAE2291F670FEB006C01B0 /* Utility */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				E1FAE21A1F670C79006C01B0 /* Trackers */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MultiTracker";
@@ -157,6 +171,66 @@
 				9A6902DB6077389F7D1C4CAB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E1FAE21A1F670C79006C01B0 /* Trackers */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE2271F670D4A006C01B0 /* LogAnalytics.swift */,
+				E1FAE22F1F6713FD006C01B0 /* LogTwoAnalytics.swift */,
+				E1FAE21D1F670C79006C01B0 /* Type */,
+			);
+			path = Trackers;
+			sourceTree = "<group>";
+		};
+		E1FAE21D1F670C79006C01B0 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE21E1F670C79006C01B0 /* Event */,
+				E1FAE2201F670C79006C01B0 /* Exception */,
+				E1FAE2211F670C79006C01B0 /* View */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		E1FAE21E1F670C79006C01B0 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE2311F6715DC006C01B0 /* MyEvent.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		E1FAE2201F670C79006C01B0 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE2331F6716EC006C01B0 /* MyException.swift */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
+		E1FAE2211F670C79006C01B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE22D1F671287006C01B0 /* MyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1FAE2291F670FEB006C01B0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE22A1F670FEB006C01B0 /* Blur */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E1FAE22A1F670FEB006C01B0 /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAE22B1F67101F006C01B0 /* BlurView.swift */,
+			);
+			path = Blur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +435,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FAE2321F6715DC006C01B0 /* MyEvent.swift in Sources */,
+				E1FAE22E1F671287006C01B0 /* MyView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E1FAE2301F6713FD006C01B0 /* LogTwoAnalytics.swift in Sources */,
+				E1FAE2281F670D4A006C01B0 /* LogAnalytics.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E1FAE2341F6716EC006C01B0 /* MyException.swift in Sources */,
+				E1FAE22C1F67101F006C01B0 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
