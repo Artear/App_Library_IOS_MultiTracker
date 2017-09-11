@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jsagredo.ing@gmail.com/MultiTracker'
+  s.homepage         = 'https://github.com/Artear/App_Library_IOS_MultiTracker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jsagredo.ing@gmail.com' => 'jsagredo.ing@gmail.com' }
-  s.source           = { :git => 'https://github.com/jsagredo.ing@gmail.com/MultiTracker.git', :tag => s.version.to_s }
+  s.author           = { 'Jose Luis Sagredo Pedraza' => 'jsagredo.ing@gmail.com' }
+  s.source           = { :git => 'https://github.com/Artear/App_Library_IOS_MultiTracker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
