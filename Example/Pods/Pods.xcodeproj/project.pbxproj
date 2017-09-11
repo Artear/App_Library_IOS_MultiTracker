@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E71DAF910CE633ECDFD105A689D3B14 /* Pods-MultiTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61A2B8D94FD7C27D6DF48DD09AD021 /* Pods-MultiTracker_Tests-dummy.m */; };
-		33EE9A35C64BA6F3C6FEA87AC782C2E2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0B3D7FFCF0B928A821CA1C24DBDDE /* ReplaceMe.swift */; };
 		9867CF24B0C42751927C717D1BBC36B4 /* Pods-MultiTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C538A5C0D8E1AFDB5D90183E1BF190 /* Pods-MultiTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EC623AD2C923A2051B5101C2E13E723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9F3209F3F9B8E7A54A11D8D6A447C1CB /* MultiTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F29492366F2A2F5103DB1CCB758C88AD /* MultiTracker-dummy.m */; };
@@ -17,6 +16,9 @@
 		AA3BF6F51142F8F37210D560ACF7BC4C /* MultiTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F72A9989523FA0E4AE28DDEA5EFA5F /* MultiTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF44AD0162FD748D1FCB98D4F0A47090 /* Pods-MultiTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23D806E7B267CF7927480DBDAF3642 /* Pods-MultiTracker_Example-dummy.m */; };
 		CD054A8FD49DA2F91E3796A4C8B207C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1FAE2171F670BFA006C01B0 /* MultiTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */; };
+		E1FAE2181F670BFA006C01B0 /* MultiTrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */; };
+		E1FAE2191F670BFA006C01B0 /* MultiTrackerSendType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,22 +36,21 @@
 		1236F7E79AC3C287C329898D9BBD23B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9AA76C49E56847FCD7A05892F86894 /* MultiTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-prefix.pch"; sourceTree = "<group>"; };
 		37F72A9989523FA0E4AE28DDEA5EFA5F /* MultiTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-umbrella.h"; sourceTree = "<group>"; };
-		39C0B3D7FFCF0B928A821CA1C24DBDDE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		3F9DAB1F7AF523D93ACB1E3182658F99 /* Pods-MultiTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48241D18BB5FBD7EC064F52B60807061 /* Pods-MultiTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MultiTracker_Example.modulemap"; sourceTree = "<group>"; };
+		48241D18BB5FBD7EC064F52B60807061 /* Pods-MultiTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MultiTracker_Example.modulemap"; sourceTree = "<group>"; };
 		4AEA8DC57C9C709C8FD48E45EB5EFDA7 /* Pods-MultiTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-resources.sh"; sourceTree = "<group>"; };
 		4C36E5A752DBE86537A240D2A4C16619 /* Pods-MultiTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E86E1271D07CFD52E980BA498107761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AA51C96148885389D4FCBB7B03E5170 /* Pods-MultiTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MultiTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		5AA51C96148885389D4FCBB7B03E5170 /* Pods-MultiTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MultiTracker_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7003EF7A6813036766A030AEBEDF51B7 /* Pods-MultiTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D61A2B8D94FD7C27D6DF48DD09AD021 /* Pods-MultiTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Tests-dummy.m"; sourceTree = "<group>"; };
-		82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiTracker.framework; path = MultiTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8375A58BD525A1F993F45A0B22753AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		851183174707CE3DCDD90BA65E56A4E4 /* Pods-MultiTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C71F0064464B027CEC28BE2080D9BC3 /* MultiTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiTracker.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C46A457D68B8CDD8A2D391E85458E829 /* Pods_MultiTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiTracker_Example.framework; path = "Pods-MultiTracker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C46A457D68B8CDD8A2D391E85458E829 /* Pods_MultiTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CA002928594D75619F3A4C5F3BC20D /* Pods-MultiTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC49A03C6B4B3C79C881281FEE4DD390 /* Pods-MultiTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CF77F482B8FE386FA0FE17343EB07D45 /* Pods-MultiTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -57,11 +58,14 @@
 		DB23D806E7B267CF7927480DBDAF3642 /* Pods-MultiTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Example-dummy.m"; sourceTree = "<group>"; };
 		DE30F6C0A3B903F5A608B84C5E19E9EB /* Pods-MultiTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E1F45ABE78435B99D1D07ED4C8822B2C /* Pods-MultiTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF0C5E148E62E2592D87B199F628AD19 /* MultiTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MultiTracker.modulemap; sourceTree = "<group>"; };
+		E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTracker.swift; sourceTree = "<group>"; };
+		E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTrackerProtocol.swift; sourceTree = "<group>"; };
+		E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTrackerSendType.swift; sourceTree = "<group>"; };
+		EF0C5E148E62E2592D87B199F628AD19 /* MultiTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MultiTracker.modulemap; sourceTree = "<group>"; };
 		F089D86F10C542947D901396D6DAFCC9 /* Pods-MultiTracker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Tests-resources.sh"; sourceTree = "<group>"; };
 		F29492366F2A2F5103DB1CCB758C88AD /* MultiTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiTracker-dummy.m"; sourceTree = "<group>"; };
 		F4C538A5C0D8E1AFDB5D90183E1BF190 /* Pods-MultiTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Example-umbrella.h"; sourceTree = "<group>"; };
-		F6C7C7CD3517ACE75F5BD43C69FAF96B /* Pods_MultiTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiTracker_Tests.framework; path = "Pods-MultiTracker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C7C7CD3517ACE75F5BD43C69FAF96B /* Pods_MultiTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +136,10 @@
 		705B59D5252959F28C2F6B73D1F93F6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				39C0B3D7FFCF0B928A821CA1C24DBDDE /* ReplaceMe.swift */,
+				E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */,
+				E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */,
+				E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -220,7 +225,6 @@
 			children = (
 				705B59D5252959F28C2F6B73D1F93F6F /* Classes */,
 			);
-			name = MultiTracker;
 			path = MultiTracker;
 			sourceTree = "<group>";
 		};
@@ -339,8 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FAE2171F670BFA006C01B0 /* MultiTracker.swift in Sources */,
+				E1FAE2191F670BFA006C01B0 /* MultiTrackerSendType.swift in Sources */,
 				9F3209F3F9B8E7A54A11D8D6A447C1CB /* MultiTracker-dummy.m in Sources */,
-				33EE9A35C64BA6F3C6FEA87AC782C2E2 /* ReplaceMe.swift in Sources */,
+				E1FAE2181F670BFA006C01B0 /* MultiTrackerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
