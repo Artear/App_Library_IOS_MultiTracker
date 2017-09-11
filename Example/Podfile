@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MultiTracker_Example' do
+  pod 'MultiTracker', :path => '../'
+
+  target 'MultiTracker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
