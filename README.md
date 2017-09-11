@@ -1,9 +1,8 @@
 # MultiTracker
 
-[![CI Status](http://img.shields.io/travis/jsagredo.ing@gmail.com/MultiTracker.svg?style=flat)](https://travis-ci.org/jsagredo.ing@gmail.com/MultiTracker)
-[![Version](https://img.shields.io/cocoapods/v/MultiTracker.svg?style=flat)](http://cocoapods.org/pods/MultiTracker)
-[![License](https://img.shields.io/cocoapods/l/MultiTracker.svg?style=flat)](http://cocoapods.org/pods/MultiTracker)
-[![Platform](https://img.shields.io/cocoapods/p/MultiTracker.svg?style=flat)](http://cocoapods.org/pods/MultiTracker)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/Reusable/badge.png)](http://cocoadocs.org/docsets/Reusable)
+[![Version](http://cocoapod-badges.herokuapp.com/v/Reusable/badge.png)](http://cocoadocs.org/docsets/Reusable)
+[![Language: Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
 
 ## Example
 
@@ -22,7 +21,7 @@ pod 'MultiTracker'
 
 ## Author
 
-jsagredo.ing@gmail.com, jsagredo.ing@gmail.com
+Jose Luis Sagredo Pedraza, jsagredo.ing@gmail.com
 
 ## License
 

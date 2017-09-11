@@ -1,0 +1,16 @@
+PODS:
+  - MultiTracker (0.1.0)
+
+DEPENDENCIES:
+  - MultiTracker (from `../`)
+
+EXTERNAL SOURCES:
+  MultiTracker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MultiTracker: df0f64052ae21ac2b9795bc72625b87382414900
+
+PODFILE CHECKSUM: d6fd576a824335159468a1d401d13a6fff7c30cc
+
+COCOAPODS: 1.2.0
