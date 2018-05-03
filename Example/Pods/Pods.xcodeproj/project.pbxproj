@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E71DAF910CE633ECDFD105A689D3B14 /* Pods-MultiTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61A2B8D94FD7C27D6DF48DD09AD021 /* Pods-MultiTracker_Tests-dummy.m */; };
-		9867CF24B0C42751927C717D1BBC36B4 /* Pods-MultiTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C538A5C0D8E1AFDB5D90183E1BF190 /* Pods-MultiTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EC623AD2C923A2051B5101C2E13E723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9F3209F3F9B8E7A54A11D8D6A447C1CB /* MultiTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F29492366F2A2F5103DB1CCB758C88AD /* MultiTracker-dummy.m */; };
-		A5CC0345225A9D7EC8A8F28E1C28E798 /* Pods-MultiTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 851183174707CE3DCDD90BA65E56A4E4 /* Pods-MultiTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A664B3C922C6EB430B9506F49460BE1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AA3BF6F51142F8F37210D560ACF7BC4C /* MultiTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F72A9989523FA0E4AE28DDEA5EFA5F /* MultiTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF44AD0162FD748D1FCB98D4F0A47090 /* Pods-MultiTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23D806E7B267CF7927480DBDAF3642 /* Pods-MultiTracker_Example-dummy.m */; };
+		41B21A439FCD6F1E518FEE4EA2B14CA5 /* Pods-MultiTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A9836D6EC5F98613189C90CD009404 /* Pods-MultiTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A0F5B05CDEAB9529BA1B1E8364B81E /* MultiTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765933359E20E4A8A289D19BEF179BFD /* MultiTracker-dummy.m */; };
+		4A32FE9C8B7B1624ACF347749F50B993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E8B6ACFCBD839556CA14CF8B2A0F8CC /* MultiTrackerSendType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C99EAB2E6B0296CFE5529862C4376 /* MultiTrackerSendType.swift */; };
+		8A0D5E43CD6E6D02710A33423C0C8644 /* MultiTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9F17E297DD86C76B23396D28261ED /* MultiTracker.swift */; };
+		9867CF24B0C42751927C717D1BBC36B4 /* Pods-MultiTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0411A2D342D313F23C3E2171BB03CE8F /* Pods-MultiTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF44AD0162FD748D1FCB98D4F0A47090 /* Pods-MultiTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5325CB66E27E809FDC00B384D30E9 /* Pods-MultiTracker_Example-dummy.m */; };
 		CD054A8FD49DA2F91E3796A4C8B207C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E1FAE2171F670BFA006C01B0 /* MultiTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */; };
-		E1FAE2181F670BFA006C01B0 /* MultiTrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */; };
-		E1FAE2191F670BFA006C01B0 /* MultiTrackerSendType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */; };
+		CF4D5EFCA959806E3C388B1988117093 /* Pods-MultiTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C88B14DB43DC36563B9937C66C7AF1 /* Pods-MultiTracker_Tests-dummy.m */; };
+		D19EFFF74B9AB3E7FB7ADE5F9F3A3820 /* MultiTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825D31E2AB0972D6E7E8C95793D629A5 /* MultiTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7204EF6F36D61BC663E87A84D00B317 /* MultiTrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDF3F248A1B8B9DC0F2CD638D877B5 /* MultiTrackerProtocol.swift */; };
+		EEC66C9A2540EFB40A522AEBB1711626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,46 +26,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D00C50C092CC7F15F3A3AFF562A9554B;
+			remoteGlobalIDString = 669C8C6677EC88F028899AA00FEDEDE2;
 			remoteInfo = MultiTracker;
+		};
+		F7F7CDAA78EE7BCD88B71F0A8711CEB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C91CC5131DCE8AB54CCDD777D96AB6;
+			remoteInfo = "Pods-MultiTracker_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11A0739E79101A348E6EC3E76679FA9F /* Pods-MultiTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1236F7E79AC3C287C329898D9BBD23B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9AA76C49E56847FCD7A05892F86894 /* MultiTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-prefix.pch"; sourceTree = "<group>"; };
-		37F72A9989523FA0E4AE28DDEA5EFA5F /* MultiTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-umbrella.h"; sourceTree = "<group>"; };
-		3F9DAB1F7AF523D93ACB1E3182658F99 /* Pods-MultiTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48241D18BB5FBD7EC064F52B60807061 /* Pods-MultiTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MultiTracker_Example.modulemap"; sourceTree = "<group>"; };
-		4AEA8DC57C9C709C8FD48E45EB5EFDA7 /* Pods-MultiTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-resources.sh"; sourceTree = "<group>"; };
-		4C36E5A752DBE86537A240D2A4C16619 /* Pods-MultiTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E86E1271D07CFD52E980BA498107761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AA51C96148885389D4FCBB7B03E5170 /* Pods-MultiTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MultiTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		0411A2D342D313F23C3E2171BB03CE8F /* Pods-MultiTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Example-umbrella.h"; sourceTree = "<group>"; };
+		06B4CE6242CDCA12FC6A5701AF3F8797 /* Pods-MultiTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		10B5325CB66E27E809FDC00B384D30E9 /* Pods-MultiTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Example-dummy.m"; sourceTree = "<group>"; };
+		1C0C99EAB2E6B0296CFE5529862C4376 /* MultiTrackerSendType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTrackerSendType.swift; path = MultiTracker/Classes/MultiTrackerSendType.swift; sourceTree = "<group>"; };
+		1C30A41C27220DA050061C8D97429A02 /* Pods-MultiTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		211E72554A5E2AE73D0CEF4F965E6DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBDF3F248A1B8B9DC0F2CD638D877B5 /* MultiTrackerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTrackerProtocol.swift; path = MultiTracker/Classes/MultiTrackerProtocol.swift; sourceTree = "<group>"; };
+		31C88B14DB43DC36563B9937C66C7AF1 /* Pods-MultiTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Tests-dummy.m"; sourceTree = "<group>"; };
+		33E9F17E297DD86C76B23396D28261ED /* MultiTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTracker.swift; path = MultiTracker/Classes/MultiTracker.swift; sourceTree = "<group>"; };
+		4512344A03B6A7F2568A8246C0D3F973 /* Pods-MultiTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45A9836D6EC5F98613189C90CD009404 /* Pods-MultiTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B09E3FC9C3C00029BC5C2DE97161191 /* Pods-MultiTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4BA15290A7C802261BAECB9A89347D12 /* Pods-MultiTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52B3BE572A854C9F2275119928759D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F1D804F0F7B01EDC9E5CCC96D80DDB /* Pods-MultiTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiTracker_Example.modulemap"; sourceTree = "<group>"; };
+		5EF46147C1E59671292C53CB3A00BDAC /* Pods-MultiTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7003EF7A6813036766A030AEBEDF51B7 /* Pods-MultiTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D61A2B8D94FD7C27D6DF48DD09AD021 /* Pods-MultiTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Tests-dummy.m"; sourceTree = "<group>"; };
-		82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8375A58BD525A1F993F45A0B22753AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		851183174707CE3DCDD90BA65E56A4E4 /* Pods-MultiTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8C71F0064464B027CEC28BE2080D9BC3 /* MultiTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiTracker.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C46A457D68B8CDD8A2D391E85458E829 /* Pods_MultiTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4CA002928594D75619F3A4C5F3BC20D /* Pods-MultiTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC49A03C6B4B3C79C881281FEE4DD390 /* Pods-MultiTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CF77F482B8FE386FA0FE17343EB07D45 /* Pods-MultiTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D316FBF03928E767C998EEEC58DAD726 /* Pods-MultiTracker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DB23D806E7B267CF7927480DBDAF3642 /* Pods-MultiTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiTracker_Example-dummy.m"; sourceTree = "<group>"; };
-		DE30F6C0A3B903F5A608B84C5E19E9EB /* Pods-MultiTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1F45ABE78435B99D1D07ED4C8822B2C /* Pods-MultiTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTracker.swift; sourceTree = "<group>"; };
-		E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTrackerProtocol.swift; sourceTree = "<group>"; };
-		E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTrackerSendType.swift; sourceTree = "<group>"; };
-		EF0C5E148E62E2592D87B199F628AD19 /* MultiTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MultiTracker.modulemap; sourceTree = "<group>"; };
-		F089D86F10C542947D901396D6DAFCC9 /* Pods-MultiTracker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Tests-resources.sh"; sourceTree = "<group>"; };
-		F29492366F2A2F5103DB1CCB758C88AD /* MultiTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiTracker-dummy.m"; sourceTree = "<group>"; };
-		F4C538A5C0D8E1AFDB5D90183E1BF190 /* Pods-MultiTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiTracker_Example-umbrella.h"; sourceTree = "<group>"; };
-		F6C7C7CD3517ACE75F5BD43C69FAF96B /* Pods_MultiTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB980203592495722B4D406892D6E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CAC29AC6D30B89B69D297AB6AB17760 /* Pods-MultiTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7142CF5BD4AD7BB2C5B0557ED4B1AA88 /* Pods-MultiTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		765933359E20E4A8A289D19BEF179BFD /* MultiTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiTracker-dummy.m"; sourceTree = "<group>"; };
+		8161FC534B562447417374857F06890C /* Pods-MultiTracker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		825D31E2AB0972D6E7E8C95793D629A5 /* MultiTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-umbrella.h"; sourceTree = "<group>"; };
+		82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiTracker.framework; path = MultiTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D07E1884AE7FDAA82169DE9E7DB513 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B4BFF06FCE04FFE7ADA7D42529704CA /* Pods-MultiTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2AA401A557D3EA2E43D483D0D3B9995 /* MultiTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTracker-prefix.pch"; sourceTree = "<group>"; };
+		AACF4FC2F16C91C354271235BF346B4A /* Pods-MultiTracker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Tests-resources.sh"; sourceTree = "<group>"; };
+		C46A457D68B8CDD8A2D391E85458E829 /* Pods_MultiTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiTracker_Example.framework; path = "Pods-MultiTracker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EEA24CE3E7BA443BD93A45D626205D /* Pods-MultiTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiTracker_Example-resources.sh"; sourceTree = "<group>"; };
+		D3597A2C4D0BE0D766F65AA206C98101 /* MultiTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MultiTracker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1EF7EA3BCB01397328FCBDC2FD7C46F /* MultiTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiTracker.xcconfig; sourceTree = "<group>"; };
+		F227711586C8F9CC41793CC5B877329A /* MultiTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiTracker.modulemap; sourceTree = "<group>"; };
+		F52EC9EDC40D9E4865DC20155510401A /* Pods-MultiTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6C7C7CD3517ACE75F5BD43C69FAF96B /* Pods_MultiTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiTracker_Tests.framework; path = "Pods-MultiTracker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B56AC36B58AA6044DD811551850C28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,25 +87,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136E0BC3FA96DC2A079B64D092B8F68F /* Frameworks */ = {
+		2E51A9B725295D06F1B6AD448F35FA69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A664B3C922C6EB430B9506F49460BE1B /* Foundation.framework in Frameworks */,
+				4A32FE9C8B7B1624ACF347749F50B993 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9A77D58EB42BDD4214E542990D2539C /* Frameworks */ = {
+		FBE4FE035A07793B2CBDB0B448D9D833 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC623AD2C923A2051B5101C2E13E723 /* Foundation.framework in Frameworks */,
+				EEC66C9A2540EFB40A522AEBB1711626 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006D6B4F8C63C179553DE8654C673966 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D07E1884AE7FDAA82169DE9E7DB513 /* Info.plist */,
+				F227711586C8F9CC41793CC5B877329A /* MultiTracker.modulemap */,
+				E1EF7EA3BCB01397328FCBDC2FD7C46F /* MultiTracker.xcconfig */,
+				765933359E20E4A8A289D19BEF179BFD /* MultiTracker-dummy.m */,
+				A2AA401A557D3EA2E43D483D0D3B9995 /* MultiTracker-prefix.pch */,
+				825D31E2AB0972D6E7E8C95793D629A5 /* MultiTracker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MultiTracker";
+			sourceTree = "<group>";
+		};
 		075607B4C87DD0E6A8DB0670A8E67AC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,91 +133,39 @@
 		4EA6129F2A9B9772AEC98E4113644A7D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B205EAC29FDD1EF9054274B7FEA68E30 /* Pods-MultiTracker_Example */,
-				58DA40D4E20606ED925EF3660C54E4C8 /* Pods-MultiTracker_Tests */,
+				CD174DB10D960C00F5C2166FC85C6943 /* Pods-MultiTracker_Example */,
+				5879A6002DA4B3AFD754FC6C196361A1 /* Pods-MultiTracker_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		58DA40D4E20606ED925EF3660C54E4C8 /* Pods-MultiTracker_Tests */ = {
+		5879A6002DA4B3AFD754FC6C196361A1 /* Pods-MultiTracker_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1236F7E79AC3C287C329898D9BBD23B0 /* Info.plist */,
-				5AA51C96148885389D4FCBB7B03E5170 /* Pods-MultiTracker_Tests.modulemap */,
-				C4CA002928594D75619F3A4C5F3BC20D /* Pods-MultiTracker_Tests-acknowledgements.markdown */,
-				CF77F482B8FE386FA0FE17343EB07D45 /* Pods-MultiTracker_Tests-acknowledgements.plist */,
-				7D61A2B8D94FD7C27D6DF48DD09AD021 /* Pods-MultiTracker_Tests-dummy.m */,
-				D316FBF03928E767C998EEEC58DAD726 /* Pods-MultiTracker_Tests-frameworks.sh */,
-				F089D86F10C542947D901396D6DAFCC9 /* Pods-MultiTracker_Tests-resources.sh */,
-				851183174707CE3DCDD90BA65E56A4E4 /* Pods-MultiTracker_Tests-umbrella.h */,
-				3F9DAB1F7AF523D93ACB1E3182658F99 /* Pods-MultiTracker_Tests.debug.xcconfig */,
-				DE30F6C0A3B903F5A608B84C5E19E9EB /* Pods-MultiTracker_Tests.release.xcconfig */,
+				52B3BE572A854C9F2275119928759D2E /* Info.plist */,
+				06B4CE6242CDCA12FC6A5701AF3F8797 /* Pods-MultiTracker_Tests.modulemap */,
+				9B4BFF06FCE04FFE7ADA7D42529704CA /* Pods-MultiTracker_Tests-acknowledgements.markdown */,
+				F52EC9EDC40D9E4865DC20155510401A /* Pods-MultiTracker_Tests-acknowledgements.plist */,
+				31C88B14DB43DC36563B9937C66C7AF1 /* Pods-MultiTracker_Tests-dummy.m */,
+				8161FC534B562447417374857F06890C /* Pods-MultiTracker_Tests-frameworks.sh */,
+				AACF4FC2F16C91C354271235BF346B4A /* Pods-MultiTracker_Tests-resources.sh */,
+				45A9836D6EC5F98613189C90CD009404 /* Pods-MultiTracker_Tests-umbrella.h */,
+				6CAC29AC6D30B89B69D297AB6AB17760 /* Pods-MultiTracker_Tests.debug.xcconfig */,
+				4BA15290A7C802261BAECB9A89347D12 /* Pods-MultiTracker_Tests.release.xcconfig */,
 			);
 			name = "Pods-MultiTracker_Tests";
 			path = "Target Support Files/Pods-MultiTracker_Tests";
-			sourceTree = "<group>";
-		};
-		705B59D5252959F28C2F6B73D1F93F6F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E1FAE2141F670BFA006C01B0 /* MultiTracker.swift */,
-				E1FAE2151F670BFA006C01B0 /* MultiTrackerProtocol.swift */,
-				E1FAE2161F670BFA006C01B0 /* MultiTrackerSendType.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7455CC332A24B7FDF4C182371A9D8391 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E86E1271D07CFD52E980BA498107761 /* Info.plist */,
-				EF0C5E148E62E2592D87B199F628AD19 /* MultiTracker.modulemap */,
-				8C71F0064464B027CEC28BE2080D9BC3 /* MultiTracker.xcconfig */,
-				F29492366F2A2F5103DB1CCB758C88AD /* MultiTracker-dummy.m */,
-				2B9AA76C49E56847FCD7A05892F86894 /* MultiTracker-prefix.pch */,
-				37F72A9989523FA0E4AE28DDEA5EFA5F /* MultiTracker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MultiTracker";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CB784ECDFB2FDE013206B09A2D804673 /* Development Pods */,
+				F607E2AFA364C206AD3A16C563C6568B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				075607B4C87DD0E6A8DB0670A8E67AC2 /* Products */,
 				4EA6129F2A9B9772AEC98E4113644A7D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A70B5D99DDC5762C93FAD37B4592392E /* MultiTracker */ = {
-			isa = PBXGroup;
-			children = (
-				D91AFB795C237BE410E19E8BFC22E5DC /* MultiTracker */,
-				7455CC332A24B7FDF4C182371A9D8391 /* Support Files */,
-			);
-			name = MultiTracker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B205EAC29FDD1EF9054274B7FEA68E30 /* Pods-MultiTracker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8375A58BD525A1F993F45A0B22753AF3 /* Info.plist */,
-				48241D18BB5FBD7EC064F52B60807061 /* Pods-MultiTracker_Example.modulemap */,
-				11A0739E79101A348E6EC3E76679FA9F /* Pods-MultiTracker_Example-acknowledgements.markdown */,
-				7003EF7A6813036766A030AEBEDF51B7 /* Pods-MultiTracker_Example-acknowledgements.plist */,
-				DB23D806E7B267CF7927480DBDAF3642 /* Pods-MultiTracker_Example-dummy.m */,
-				CC49A03C6B4B3C79C881281FEE4DD390 /* Pods-MultiTracker_Example-frameworks.sh */,
-				4AEA8DC57C9C709C8FD48E45EB5EFDA7 /* Pods-MultiTracker_Example-resources.sh */,
-				F4C538A5C0D8E1AFDB5D90183E1BF190 /* Pods-MultiTracker_Example-umbrella.h */,
-				4C36E5A752DBE86537A240D2A4C16619 /* Pods-MultiTracker_Example.debug.xcconfig */,
-				E1F45ABE78435B99D1D07ED4C8822B2C /* Pods-MultiTracker_Example.release.xcconfig */,
-			);
-			name = "Pods-MultiTracker_Example";
-			path = "Target Support Files/Pods-MultiTracker_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -204,12 +176,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB784ECDFB2FDE013206B09A2D804673 /* Development Pods */ = {
+		BDCFABC11F55B349B05F833BD7A4B45F /* MultiTracker */ = {
 			isa = PBXGroup;
 			children = (
-				A70B5D99DDC5762C93FAD37B4592392E /* MultiTracker */,
+				33E9F17E297DD86C76B23396D28261ED /* MultiTracker.swift */,
+				2FBDF3F248A1B8B9DC0F2CD638D877B5 /* MultiTrackerProtocol.swift */,
+				1C0C99EAB2E6B0296CFE5529862C4376 /* MultiTrackerSendType.swift */,
+				E6B0C04FE5AF48BBAE133840E9ECEED8 /* Pod */,
+				006D6B4F8C63C179553DE8654C673966 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = MultiTracker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD174DB10D960C00F5C2166FC85C6943 /* Pods-MultiTracker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				211E72554A5E2AE73D0CEF4F965E6DF4 /* Info.plist */,
+				58F1D804F0F7B01EDC9E5CCC96D80DDB /* Pods-MultiTracker_Example.modulemap */,
+				7142CF5BD4AD7BB2C5B0557ED4B1AA88 /* Pods-MultiTracker_Example-acknowledgements.markdown */,
+				1C30A41C27220DA050061C8D97429A02 /* Pods-MultiTracker_Example-acknowledgements.plist */,
+				10B5325CB66E27E809FDC00B384D30E9 /* Pods-MultiTracker_Example-dummy.m */,
+				5EF46147C1E59671292C53CB3A00BDAC /* Pods-MultiTracker_Example-frameworks.sh */,
+				C4EEA24CE3E7BA443BD93A45D626205D /* Pods-MultiTracker_Example-resources.sh */,
+				0411A2D342D313F23C3E2171BB03CE8F /* Pods-MultiTracker_Example-umbrella.h */,
+				4512344A03B6A7F2568A8246C0D3F973 /* Pods-MultiTracker_Example.debug.xcconfig */,
+				4B09E3FC9C3C00029BC5C2DE97161191 /* Pods-MultiTracker_Example.release.xcconfig */,
+			);
+			name = "Pods-MultiTracker_Example";
+			path = "Target Support Files/Pods-MultiTracker_Example";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -220,25 +215,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D91AFB795C237BE410E19E8BFC22E5DC /* MultiTracker */ = {
+		E6B0C04FE5AF48BBAE133840E9ECEED8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				705B59D5252959F28C2F6B73D1F93F6F /* Classes */,
+				6AFB980203592495722B4D406892D6E4 /* LICENSE */,
+				D3597A2C4D0BE0D766F65AA206C98101 /* MultiTracker.podspec */,
+				F7B56AC36B58AA6044DD811551850C28 /* README.md */,
 			);
-			path = MultiTracker;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F607E2AFA364C206AD3A16C563C6568B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFABC11F55B349B05F833BD7A4B45F /* MultiTracker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BD837537001C246FD998E060F3B907F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3BF6F51142F8F37210D560ACF7BC4C /* MultiTracker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23CEEA674A79CE9DF8E77DB37ADB3A4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,28 +244,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC56E3ADF2FDC0B47615D2DB4149FD1E /* Headers */ = {
+		6B8E024673DA6356DC2002E62B21FC85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CC0345225A9D7EC8A8F28E1C28E798 /* Pods-MultiTracker_Tests-umbrella.h in Headers */,
+				41B21A439FCD6F1E518FEE4EA2B14CA5 /* Pods-MultiTracker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6AA9F2A79989A96B9212A6AC564CDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19EFFF74B9AB3E7FB7ADE5F9F3A3820 /* MultiTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B37CC451F5793BB17C025BF7FB6BC7F4 /* Pods-MultiTracker_Tests */ = {
+		669C8C6677EC88F028899AA00FEDEDE2 /* MultiTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4BA5D52CAA389AEDD9C201C0E2AF032 /* Build configuration list for PBXNativeTarget "Pods-MultiTracker_Tests" */;
+			buildConfigurationList = FF56869DD10F7EC17781C8CF0FBE50EA /* Build configuration list for PBXNativeTarget "MultiTracker" */;
 			buildPhases = (
-				97B274E2E93829AF936E8FF61A9C6160 /* Sources */,
-				136E0BC3FA96DC2A079B64D092B8F68F /* Frameworks */,
-				AC56E3ADF2FDC0B47615D2DB4149FD1E /* Headers */,
+				2B9E522150583F949DD34CB3A69B7C03 /* Sources */,
+				2E51A9B725295D06F1B6AD448F35FA69 /* Frameworks */,
+				6F6AA9F2A79989A96B9212A6AC564CDC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = MultiTracker;
+			productName = MultiTracker;
+			productReference = 82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4C0C2FEF6E953F7EBAE135DD86E563D /* Pods-MultiTracker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA130787BFD6AED76D254FA0ADC84DC /* Build configuration list for PBXNativeTarget "Pods-MultiTracker_Tests" */;
+			buildPhases = (
+				170BC61C1730979489349631FCAA1751 /* Sources */,
+				FBE4FE035A07793B2CBDB0B448D9D833 /* Frameworks */,
+				6B8E024673DA6356DC2002E62B21FC85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BE4E0B00E2CB30AB15432595D12CCD /* PBXTargetDependency */,
 			);
 			name = "Pods-MultiTracker_Tests";
 			productName = "Pods-MultiTracker_Tests";
@@ -293,31 +316,14 @@
 			productReference = C46A457D68B8CDD8A2D391E85458E829 /* Pods_MultiTracker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D00C50C092CC7F15F3A3AFF562A9554B /* MultiTracker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDF117CB48D25263E06014623EECC59D /* Build configuration list for PBXNativeTarget "MultiTracker" */;
-			buildPhases = (
-				3A54151CF5374521BF37E61FEB1FB6D6 /* Sources */,
-				F9A77D58EB42BDD4214E542990D2539C /* Frameworks */,
-				1BD837537001C246FD998E060F3B907F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MultiTracker;
-			productName = MultiTracker;
-			productReference = 82928A325688B2C147B93124AA2F7247 /* MultiTracker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,30 +337,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D00C50C092CC7F15F3A3AFF562A9554B /* MultiTracker */,
+				669C8C6677EC88F028899AA00FEDEDE2 /* MultiTracker */,
 				C2C91CC5131DCE8AB54CCDD777D96AB6 /* Pods-MultiTracker_Example */,
-				B37CC451F5793BB17C025BF7FB6BC7F4 /* Pods-MultiTracker_Tests */,
+				B4C0C2FEF6E953F7EBAE135DD86E563D /* Pods-MultiTracker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A54151CF5374521BF37E61FEB1FB6D6 /* Sources */ = {
+		170BC61C1730979489349631FCAA1751 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FAE2171F670BFA006C01B0 /* MultiTracker.swift in Sources */,
-				E1FAE2191F670BFA006C01B0 /* MultiTrackerSendType.swift in Sources */,
-				9F3209F3F9B8E7A54A11D8D6A447C1CB /* MultiTracker-dummy.m in Sources */,
-				E1FAE2181F670BFA006C01B0 /* MultiTrackerProtocol.swift in Sources */,
+				CF4D5EFCA959806E3C388B1988117093 /* Pods-MultiTracker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97B274E2E93829AF936E8FF61A9C6160 /* Sources */ = {
+		2B9E522150583F949DD34CB3A69B7C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E71DAF910CE633ECDFD105A689D3B14 /* Pods-MultiTracker_Tests-dummy.m in Sources */,
+				48A0F5B05CDEAB9529BA1B1E8364B81E /* MultiTracker-dummy.m in Sources */,
+				8A0D5E43CD6E6D02710A33423C0C8644 /* MultiTracker.swift in Sources */,
+				E7204EF6F36D61BC663E87A84D00B317 /* MultiTrackerProtocol.swift in Sources */,
+				7E8B6ACFCBD839556CA14CF8B2A0F8CC /* MultiTrackerSendType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,317 +378,342 @@
 		DD266C2EF06C93A0B3D1E2745268927F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MultiTracker;
-			target = D00C50C092CC7F15F3A3AFF562A9554B /* MultiTracker */;
+			target = 669C8C6677EC88F028899AA00FEDEDE2 /* MultiTracker */;
 			targetProxy = 1DFB7801904A0FD5ED4058BC3C14A18B /* PBXContainerItemProxy */;
+		};
+		E1BE4E0B00E2CB30AB15432595D12CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MultiTracker_Example";
+			target = C2C91CC5131DCE8AB54CCDD777D96AB6 /* Pods-MultiTracker_Example */;
+			targetProxy = F7F7CDAA78EE7BCD88B71F0A8711CEB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		109568EF727882908521F6D8AEEA48BB /* Debug */ = {
+		2BB6E3F0D1C86FA5C5C1668ECAEFF32E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C71F0064464B027CEC28BE2080D9BC3 /* MultiTracker.xcconfig */;
+			baseConfigurationReference = E1EF7EA3BCB01397328FCBDC2FD7C46F /* MultiTracker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MultiTracker/MultiTracker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MultiTracker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MultiTracker/MultiTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = MultiTracker;
 				PRODUCT_NAME = MultiTracker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6CE92A10A91A3E1809AD02C7F7EB394E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9DAB1F7AF523D93ACB1E3182658F99 /* Pods-MultiTracker_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Tests/Pods-MultiTracker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MultiTracker_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8C40B006279D2B167EF05F19F5C859D1 /* Debug */ = {
+		6B0667ECBFC61F6D0CD4456D290FE434 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C36E5A752DBE86537A240D2A4C16619 /* Pods-MultiTracker_Example.debug.xcconfig */;
+			baseConfigurationReference = 6CAC29AC6D30B89B69D297AB6AB17760 /* Pods-MultiTracker_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Tests/Pods-MultiTracker_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MultiTracker_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9B63F7C984A899A2001AAD5B34CF6D15 /* Release */ = {
+		84264E8F57ED50CA9414593BD35F6982 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C71F0064464B027CEC28BE2080D9BC3 /* MultiTracker.xcconfig */;
+			baseConfigurationReference = 4BA15290A7C802261BAECB9A89347D12 /* Pods-MultiTracker_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MultiTracker/MultiTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MultiTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MultiTracker/MultiTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MultiTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D2DE41D6AF8EA8B13BBEB687089A1834 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F45ABE78435B99D1D07ED4C8822B2C /* Pods-MultiTracker_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MultiTracker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D895146CA2E95A6A26D4A80A60E36B40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE30F6C0A3B903F5A608B84C5E19E9EB /* Pods-MultiTracker_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Tests/Pods-MultiTracker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MultiTracker_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAE5F1DEBFDDC6CBDC246E763B3D9053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4512344A03B6A7F2568A8246C0D3F973 /* Pods-MultiTracker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF5584AA3230B06F538BA000B39D8263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B09E3FC9C3C00029BC5C2DE97161191 /* Pods-MultiTracker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiTracker_Example/Pods-MultiTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFE84AA64B73AFD44664BD9057FBA324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EF7EA3BCB01397328FCBDC2FD7C46F /* MultiTracker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiTracker/MultiTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MultiTracker/MultiTracker.modulemap";
+				PRODUCT_MODULE_NAME = MultiTracker;
+				PRODUCT_NAME = MultiTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -694,8 +725,8 @@
 		04043F29D61F87582F3A5C9A2B4452F0 /* Build configuration list for PBXNativeTarget "Pods-MultiTracker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C40B006279D2B167EF05F19F5C859D1 /* Debug */,
-				D2DE41D6AF8EA8B13BBEB687089A1834 /* Release */,
+				BAE5F1DEBFDDC6CBDC246E763B3D9053 /* Debug */,
+				DF5584AA3230B06F538BA000B39D8263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,26 +734,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4BA5D52CAA389AEDD9C201C0E2AF032 /* Build configuration list for PBXNativeTarget "Pods-MultiTracker_Tests" */ = {
+		CFA130787BFD6AED76D254FA0ADC84DC /* Build configuration list for PBXNativeTarget "Pods-MultiTracker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CE92A10A91A3E1809AD02C7F7EB394E /* Debug */,
-				D895146CA2E95A6A26D4A80A60E36B40 /* Release */,
+				6B0667ECBFC61F6D0CD4456D290FE434 /* Debug */,
+				84264E8F57ED50CA9414593BD35F6982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDF117CB48D25263E06014623EECC59D /* Build configuration list for PBXNativeTarget "MultiTracker" */ = {
+		FF56869DD10F7EC17781C8CF0FBE50EA /* Build configuration list for PBXNativeTarget "MultiTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				109568EF727882908521F6D8AEEA48BB /* Debug */,
-				9B63F7C984A899A2001AAD5B34CF6D15 /* Release */,
+				2BB6E3F0D1C86FA5C5C1668ECAEFF32E /* Debug */,
+				FFE84AA64B73AFD44664BD9057FBA324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
