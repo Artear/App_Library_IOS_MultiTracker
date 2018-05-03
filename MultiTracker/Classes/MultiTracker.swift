@@ -22,6 +22,12 @@ public class MultiTracker {
         self.trackers["\(protocolType)"] = tracker
     }
     
+    public func register(_ trackers:[TrackerProtocol]) {
+        for tracker in trackers {
+            self.register(tracker)
+        }
+    }
+    
     public func send(params:TrackerSend, trackers:[TrackerProtocol.Type]? = nil) {
         var trackerTypes = [TrackerProtocol.Type]()
         if trackers == nil {
